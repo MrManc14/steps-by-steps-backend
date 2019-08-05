@@ -24,7 +24,7 @@ public class QuizController {
 
     @GetMapping(path="/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Quiz getQuizById(@RequestParam(name="id") Long id) {
+    public Quiz getQuizById(@PathVariable(name="id") Long id) {
         return service.getQuiz(id);
     }
 
@@ -36,7 +36,7 @@ public class QuizController {
 
     @DeleteMapping(path="/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public void deleteQuizEntry(@RequestParam(name = "id") Long id) {
+    public void deleteQuizEntry(@PathVariable(name = "id") Long id) {
         service.deleteQuizEntry(id);
     }
 
