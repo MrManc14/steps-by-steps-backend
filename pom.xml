@@ -8,10 +8,10 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.star-tech</groupId>
-	<artifactId>rest-api</artifactId>
+	<groupId>com.steps-by-steps</groupId>
+	<artifactId>rest-api-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-api</name>
+	<name>rest-api-backend</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

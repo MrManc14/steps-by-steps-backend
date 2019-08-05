@@ -1,11 +1,10 @@
-package com.startech.restapi.Persistence;
-import com.fasterxml.jackson.annotation.JsonIgnore;
+package com.stepsbysteps.data;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "account")
-public class Account {
+public class User {
 
     @Id
     @Column(name = "id")
@@ -42,12 +41,12 @@ public class Account {
         this.password = password;
     }
 
-    public Account(Long id, String userName, String password) {
+    public User(Long id, String userName, String password) {
         this.id = id;
         this.userName = userName;
         this.password = password;
     }
 
-    public Account() {
+    public User() {
     }
 }
