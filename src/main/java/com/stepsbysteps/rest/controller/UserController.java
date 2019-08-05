@@ -24,7 +24,7 @@ public class UserController {
 
     @GetMapping(path = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public User getUserById(@RequestParam(name = "id") Long id) {
+    public User getUserById(@PathVariable(name = "id") Long id) {
         return service.getUser(id);
     }
 
@@ -36,7 +36,7 @@ public class UserController {
 
     @DeleteMapping(path = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public void deleteUser(@RequestParam(name = "id") Long id) {
+    public void deleteUser(@PathVariable(name = "id") Long id) {
         service.removeUser(id);
     }
 
