@@ -37,8 +37,8 @@ public class UserController {
 
     @PostMapping(path = "", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public void createUser(@RequestBody User user) {
-        service.save(user);
+    public User createUser(@RequestBody User user) {
+        return service.save(user);
     }
 
     @DeleteMapping(path = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)

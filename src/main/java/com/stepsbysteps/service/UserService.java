@@ -20,12 +20,13 @@ public class UserService {
         return persistence.findById(id).orElse(null);
     }
 
-    public void save(User user) {
+    public User save(User user) {
         if (userExists(user.getUserName())) {
             // Can't create user
             throw new RuntimeException("User name '"+user.getUserName()+"' is already taken.");
         }
-        persistence.save(user);
+        return persistence.save(user);
+
     }
 
     public void removeUser(Long id) {
