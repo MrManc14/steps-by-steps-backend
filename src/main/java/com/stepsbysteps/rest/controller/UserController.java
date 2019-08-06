@@ -28,11 +28,11 @@ public class UserController {
         return service.getUser(id);
     }
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public boolean userExists(@RequestBody User user) {
-        // This is for the user login
-        return service.userExists(user);
+    public User getUser(@RequestBody User user) {
+        // This checks if user exists by returning the user
+        return service.getUser(user);
     }
 
     @PostMapping(path = "", consumes = MediaType.APPLICATION_JSON_VALUE)
