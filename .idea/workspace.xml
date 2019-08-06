@@ -103,14 +103,12 @@
           <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+                <state relative-caret-position="229">
+                  <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#630#631#0" expanded="true" />
                     <element signature="e#672#673#0" expanded="true" />
-                    <element signature="e#726#727#0" expanded="true" />
-                    <element signature="e#777#778#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -528,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10830000" />
+    <option name="totallyTimeSpent" value="11088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-508" y="-1080" width="2048" height="1080" extended-state="0" />
@@ -960,14 +958,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="229">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#630#631#0" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
           </folding>
         </state>
       </provider>

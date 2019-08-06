@@ -33,10 +33,10 @@ public class UserService {
     }
 
     private boolean userExists(String userName) {
-        Boolean bool = persistence.findByUserName(userName);
-        if (null == bool) {
+        User user = persistence.findByUserName(userName);
+        if (null == user) {
             return false;
         }
-        return bool;
+        return true;
     }
 }
