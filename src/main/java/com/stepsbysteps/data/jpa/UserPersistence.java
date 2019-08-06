@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserPersistence extends JpaRepository<User, Long> {
-    boolean findByUserName(String userName);
+    Boolean findByUserName(String userName);
 }
