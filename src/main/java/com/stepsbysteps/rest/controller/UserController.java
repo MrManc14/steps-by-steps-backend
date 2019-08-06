@@ -10,7 +10,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping(path="/user")
+@RequestMapping(path="/users")
 public class UserController {
 
     @Autowired
@@ -28,7 +28,7 @@ public class UserController {
         return service.getUser(id);
     }
 
-    @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/user", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public User getUser(@RequestBody User user) {
         // This checks if user exists by returning the user
