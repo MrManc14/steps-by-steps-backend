@@ -34,9 +34,17 @@ public class UserService {
 
     private boolean userExists(String userName) {
         User user = persistence.findByUserName(userName);
-        if (null == user) {
-            return false;
+        return user != null;
+    }
+
+    public boolean userExists(User user) {
+        User actualUser = persistence.findByUserName(user.getUserName());
+        if (null == actualUser) {
+            throw new RuntimeException("User name '"+user.getUserName()+"' does not exist.");
         }
-        return true;
+
+        boolean userNameMatches = actualUser.getUserName().equals(user.getUserName());
+        boolean passwordMatches = actualUser.getPassword().equals(user.getPassword());
+        return userNameMatches && passwordMatches;
     }
 }

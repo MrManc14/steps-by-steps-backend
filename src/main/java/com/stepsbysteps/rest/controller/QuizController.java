@@ -16,7 +16,7 @@ public class QuizController {
     @Autowired
     private QuizService service;
 
-    @GetMapping(value="", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path="", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Quiz> getAllQuizzes() {
         return service.getAllQuizzes();

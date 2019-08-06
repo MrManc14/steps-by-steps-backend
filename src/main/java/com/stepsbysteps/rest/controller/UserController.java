@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     private UserService service;
 
-    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<User> getAllUsers() {
         return service.getAllUsers();
@@ -26,6 +26,13 @@ public class UserController {
     @ResponseBody
     public User getUserById(@PathVariable(name = "id") Long id) {
         return service.getUser(id);
+    }
+
+    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public boolean userExists(@RequestBody User user) {
+        // This is for the user login
+        return service.userExists(user);
     }
 
     @PostMapping(path = "", consumes = MediaType.APPLICATION_JSON_VALUE)
