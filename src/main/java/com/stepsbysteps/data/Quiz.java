@@ -51,14 +51,6 @@ public class Quiz {
         this.userID = userID;
     }
 
-    public int getScore() {
-        return totalPoints;
-    }
-
-    public void setScore(int score) {
-        this.totalPoints = score;
-    }
-
     public int getTransportPoints() {
         return transportPoints;
     }
