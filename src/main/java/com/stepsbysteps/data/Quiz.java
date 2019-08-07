@@ -17,6 +17,9 @@ public class Quiz {
     @Column(name = "score")
     private String score;
 
+    @Column(name = "timestamp")
+    private Long timestamp;
+
     public Long getId() {
         return id;
     }
@@ -39,6 +42,14 @@ public class Quiz {
 
     public void setScore(String score) {
         this.score = score;
+    }
+
+    public Long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Long timestamp) {
+        this.timestamp = timestamp;
     }
 
     public Quiz(Long id, String userID, String score) {

@@ -17,11 +17,16 @@ public class QuizService {
         return quizPersistence.findAll();
     }
 
+    public List<Quiz> getAllUserQuizzes(String userID) {
+        return quizPersistence.findAllByUserID(userID);
+    }
+
     public Quiz getQuiz(Long id) {
         return quizPersistence.findById(id).orElse(null);
     }
 
     public void save(Quiz quiz) {
+        quiz.setTimestamp(System.currentTimeMillis());
         quizPersistence.save(quiz);
     }
 

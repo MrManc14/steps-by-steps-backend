@@ -10,7 +10,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping(path="/quiz")
+@RequestMapping(path="/quizzes")
 public class QuizController {
 
     @Autowired
@@ -20,6 +20,12 @@ public class QuizController {
     @ResponseBody
     public List<Quiz> getAllQuizzes() {
         return service.getAllQuizzes();
+    }
+
+    @GetMapping(path="/{userID}", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public List<Quiz> getAllUserQuizzes(@PathVariable(name = "userID") String userID) {
+        return service.getAllUserQuizzes(userID);
     }
 
     @GetMapping(path="/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
