@@ -49,4 +49,9 @@ public class User {
 
     protected User() {
     }
+
+    @Override
+    public String toString() {
+        return "id:" +this.id+ "\nuserName:" +this.userName+ "\npassword:" +this.password;
+    }
 }
