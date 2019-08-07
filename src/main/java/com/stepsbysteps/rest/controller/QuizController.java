@@ -22,7 +22,7 @@ public class QuizController {
         return service.getAllQuizzes();
     }
 
-    @GetMapping(path="/{userID}", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path="/user/{userID}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Quiz> getAllUserQuizzes(@PathVariable(name = "userID") String userID) {
         return service.getAllUserQuizzes(userID);

@@ -49,23 +49,41 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.89908254">
+    <splitter split-orientation="horizontal" split-proportion="0.4102692">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/Quiz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+                <state relative-caret-position="375">
+                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                  <folding>
+                    <element signature="e#819#820#0" expanded="true" />
+                    <element signature="e#851#852#0" expanded="true" />
+                    <element signature="e#899#900#0" expanded="true" />
+                    <element signature="e#941#942#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="QuizController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="600">
+                  <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+                <state relative-caret-position="465">
+                  <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
                 </state>
               </provider>
             </entry>
@@ -86,50 +104,42 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="QuizController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java">
+          <file leaf-file-name="QuizService.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/QuizService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#630#631#0" expanded="true" />
-                    <element signature="e#672#673#0" expanded="true" />
+                    <element signature="e#391#392#0" expanded="true" />
+                    <element signature="e#439#440#0" expanded="true" />
+                    <element signature="e#534#535#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CrudRepository.java" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+          <file leaf-file-name="QuizPersistence.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/QuizPersistence.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="215">
-                  <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -138,7 +148,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/UserPersistence.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+                  <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -160,6 +170,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>save</find>
+      <find>quizzes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,17 +186,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/restapi/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/startech/restapi/Persistence/UserPersistence.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/QuizPersistence.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/Applicationwack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/QuizService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stepsbysteps/RestApiApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/Quiz.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/UserPersistence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/Quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/QuizPersistence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/QuizService.java" />
       </list>
     </option>
   </component>
@@ -320,7 +331,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/User.java&#10;users&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/service/UserService.java&#10;userco&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/rest/controller/UserController.java&#10;control&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/rest/controller/QuizController.java&#10;quiz&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/Quiz.java&#10;usercont&#9;PSI&#9;JAVA://com.stepsbysteps.rest.controller.UserController&#10;service&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/service/UserService.java&#10;account&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/Account.java" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/service/UserService.java&#10;userper&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/jpa/UserPersistence.java&#10;quizp&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/jpa/QuizPersistence.java&#10;quizs&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/service/QuizService.java&#10;users&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/service/UserService.java&#10;userco&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/rest/controller/UserController.java&#10;control&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/rest/controller/QuizController.java&#10;quiz&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/Quiz.java&#10;usercont&#9;PSI&#9;JAVA://com.stepsbysteps.rest.controller.UserController&#10;service&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/service/UserService.java&#10;account&#9;FILE&#9;file:///Users/macmilll/steps-by-steps-backend/src/main/java/com/stepsbysteps/data/Account.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -537,7 +548,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17758000" />
+    <option name="totallyTimeSpent" value="19055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-508" y="-1080" width="2048" height="1080" extended-state="0" />
@@ -562,7 +573,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3164179" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32935324" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5930736" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24577114" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.28411406" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" side_tool="true" />
@@ -821,16 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/QuizPersistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizControllerWACKY.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -848,18 +849,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/QuizService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,30 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/UserPersistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-592">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,18 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -976,17 +933,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/Quiz.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="465">
+          <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/UserPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/data/jpa/QuizPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/service/QuizService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stepsbysteps/rest/controller/QuizController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
