@@ -31,6 +31,8 @@ public class UserController {
     @GetMapping(path = "/user", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public User getUser(@RequestBody User user) {
+        System.out.println(user);
+
         // This checks if user exists by returning the user
         return service.getUser(user);
     }
@@ -38,6 +40,8 @@ public class UserController {
     @PostMapping(path = "", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public User createUser(@RequestBody User user) {
+        System.out.println(user);
+
         return service.save(user);
     }
 
