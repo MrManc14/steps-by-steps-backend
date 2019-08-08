@@ -25,9 +25,9 @@ public class QuizService {
         return quizPersistence.findById(id).orElse(null);
     }
 
-    public void save(Quiz quiz) {
+    public Quiz save(Quiz quiz) {
         quiz.setTimestamp(System.currentTimeMillis());
-        quizPersistence.save(quiz);
+        return quizPersistence.save(quiz);
     }
 
     public void deleteQuizEntry(Long id) {

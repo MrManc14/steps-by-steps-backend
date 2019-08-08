@@ -36,8 +36,8 @@ public class QuizController {
 
     @PostMapping(path="", consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public void createQuizEntry(@RequestBody Quiz quiz) {
-        service.save(quiz);
+    public Quiz createQuizEntry(@RequestBody Quiz quiz) {
+        return service.save(quiz);
     }
 
     @DeleteMapping(path="/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
